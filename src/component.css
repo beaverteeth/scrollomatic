@@ -1,0 +1,85 @@
+.scrollomatic-outer-container
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.scrollomatic-inner-container
+{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: left 0s ease-out, top 0s ease-out;
+}
+
+.scrollomatic-inner-container.slow-scroll
+{
+    transition-duration: 1s;
+}
+
+.scrollomatic-bottom-rail 
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 12px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    transition: opacity 0.5s ease;    
+    z-index: 55;
+}
+
+.scrollomatic-bottom-thumb
+{
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 2px;
+    left: 30px;
+    height: 8px;
+    margin-left: 0;
+    border-radius: 5px;
+    background-color:rgba(160,160,160,0.75);
+    transition: background-color 0.5s ease;
+} 
+
+.scrollomatic-bottom-thumb.scrolling {
+    background-color: skyblue;
+}
+
+.scrollomatic-side-rail 
+{
+    position: absolute;
+    display: block;
+    top: 0;    
+    right: 0;
+    width: 12px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    transition: opacity 0.5s ease;    
+    z-index: 55;
+}
+
+.scrollomatic-side-thumb
+{
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 2px;
+    width: 8px;
+    margin-left: 0;
+    border-radius: 5px;
+    background-color:rgba(160,160,160,0.75);
+    transition: background-color 0.5s ease;
+} 
+
+.scrollomatic-side-thumb.scrolling {
+    background-color: skyblue;
+}
