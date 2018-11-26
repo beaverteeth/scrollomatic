@@ -44,5 +44,6 @@ export default class App extends Component {
 ## License
 
 Author [Seth Hamilton](https://github.com/SethHamilton)
+
 Copyright 2018, Perple Corp and B4T Solutions
 
