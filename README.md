@@ -8,6 +8,10 @@
 npm install --save scrollomatic
 ```
 
+## Live Example
+
+[Live Scrollomatic Example](#)
+
 ## Usage
 
 Here we have a small div with a much larger div within it. The the larger div is wrapped
@@ -42,6 +46,8 @@ export default class App extends Component {
 ```
 
 ## License
+
+MIT
 
 Author [Seth Hamilton](https://github.com/SethHamilton)
 
