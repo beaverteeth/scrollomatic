@@ -1,6 +1,6 @@
 {
   "name": "scrollomatic",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pretty scrollbar container for react",
   "author": "SethHamilton",
   "license": "MIT",
