@@ -10,7 +10,7 @@ npm install --save scrollomatic
 
 ## Live Example
 
-[Live Scrollomatic Example](#)
+[Live Scrollomatic Example](https://beaverteeth.github.io/scrollomatic/)
 
 ## Usage
 
